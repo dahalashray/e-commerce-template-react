@@ -1,0 +1,54 @@
+.entry-wrapper{
+    height: 70vh;
+    width: 100%;
+}
+
+.entry-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.entry-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.entry-input{
+    flex: 1;
+    width: 500px;
+    margin: 5px 10px 0px 0px;
+}
+
+.agreement{
+    margin-top: 10px;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.entry-link{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.entry-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.entry-button:hover{
+    border: teal 1px solid;
+    background-color: white;
+    color: teal;
+}

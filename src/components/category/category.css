@@ -1,0 +1,44 @@
+.C-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.cl-container{
+    flex: 1;
+    margin: 3px;
+    height: 40vh;
+    position: relative;
+}
+
+.cl-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cl-info{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cl-title{
+    color: white;
+    padding: 10px;
+}
+
+.cl-button{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+    font-weight: 600;
+}

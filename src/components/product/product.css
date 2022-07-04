@@ -1,0 +1,52 @@
+.pl-container{
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-container{
+    flex: 1;
+    margin: 5px;
+    min-width: 380px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.p-img{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.p-info{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-icon{
+    width: 40px;
+    z-index: 3;
+    height: 40px;
+    border-radius: 50%;
+    color: teal;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.p-icon:hover{
+    transform: scale(1.2);
+}

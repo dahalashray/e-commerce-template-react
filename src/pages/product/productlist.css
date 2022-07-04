@@ -1,0 +1,26 @@
+.pp-title{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.filter-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.p-select{
+    padding: 10px;
+    margin-right: 20px;
+    color: teal;
+}

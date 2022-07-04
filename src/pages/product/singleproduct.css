@@ -1,0 +1,101 @@
+.sp-wrapper{
+    display: flex;
+}
+
+.sp-img-container{
+    flex: 1;
+}
+
+.sp-img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.sp-info{
+    margin-left: 15px;
+    flex: 1;
+}
+
+.sp-title{
+    font-weight: 100;
+}
+
+.sp-desc{
+    margin: 20px 0px;
+    font-weight: 100;
+}
+
+.sp-price{
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.sp-filter-container{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: space-between;
+}
+
+.sp-filter{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.sp-filter-title{
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+.sp-filtersize{
+    color: teal;
+    background-color: white;
+    border: 2px teal solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sp-add-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sp-amount-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.sp-amount-remove{
+    cursor: pointer;
+}
+
+.sp-amount{
+    border: solid 1px teal;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.sp-amount-add{
+    cursor: pointer;
+}
+
+.add-to-cart{
+    padding: 10px;
+    color: white;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.add-to-cart:hover{
+    color: teal;
+    background-color: white;
+}
